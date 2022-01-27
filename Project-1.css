@@ -1,0 +1,76 @@
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+    margin: 0%;
+}
+#main-header{
+    font-size: 20px;
+ color: whitesmoke;
+    background-color: coral;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+#navbar{
+    background-color: grey;
+    color: whitesmoke;
+}
+#navbar ul{
+    list-style: none;
+    padding: 0%;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 25px;
+}
+#showcase{
+    background-image: url(images/pink.jpg);
+    background-position: center right;
+    min-height: 200px;
+    text-align: center;
+    
+}
+#showcase h2{
+    color: darkgoldenrod;
+    font-size: 30px;
+    line-height: 1.5em;
+    padding: 30px;
+    margin-top:10px;
+}
+#welcome{
+    box-sizing: border-box;
+    width: 70%;
+    float: left;
+    padding: 0 40px;
+    
+}
+#sidebar{
+    background-color: gray;
+    float: right;
+    box-sizing: border-box;
+    width: 30%;
+    color: whitesmoke;
+    padding: 30px;
+}
+#footer{
+    background-color: darkgray;
+    padding:25px;
+    text-align: center;
+}
+@media(max-width:600px){
+    #welcome{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
